@@ -21,6 +21,9 @@ public class Calculadora {
 			case 1:
 				resultado = num1 + num2;
 				break;
+			case 2:
+				resultado = num1 - num2;
+				break;
 
 			}
 			System.out.println("Resultado igual a: " + resultado);
