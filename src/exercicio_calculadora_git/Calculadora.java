@@ -27,6 +27,9 @@ public class Calculadora {
 			case 3:
 				resultado = num1 * num2;
 				break;
+			case 4:
+				resultado = num1 / num2;
+				break;
 			}
 			System.out.println("Resultado igual a: " + resultado);
 		} else {
